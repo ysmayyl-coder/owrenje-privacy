@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Öwrenje</title>
+<meta name="description" content="Öwrenje — the language-learning app for Turkmen speakers.">
+<style>
+:root {
+  --bg: #fffdf8; --fg: #1d1b16; --muted: #6b6455;
+  --rule: #e6ded0; --accent: #b4562a;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #17150f; --fg: #eee7d9; --muted: #a49b88;
+          --rule: #322c21; --accent: #e08a5a; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 40px 16px 72px; background: var(--bg); color: var(--fg);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+main { max-width: 42rem; margin: 0 auto; }
+h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 .3em; letter-spacing: -.01em; }
+h2 { font-size: 1.12rem; margin: 2.2em 0 .6em; padding-top: 1.1em;
+     border-top: 1px solid var(--rule); }
+p, li { overflow-wrap: break-word; }
+ul { padding-left: 1.2em; }
+li { margin: .45em 0; }
+.date { color: var(--muted); font-size: .92rem; margin: 0 0 1.5em; }
+a { color: var(--accent); }
+nav { margin: 0 0 2.2rem; }
+.row { display: flex; gap: .5rem; flex-wrap: wrap; }
+.row + .row { margin-top: .5rem; }
+nav a {
+  text-decoration: none; font-size: .88rem; padding: .3rem .7rem;
+  border: 1px solid var(--rule); border-radius: 999px; color: var(--muted);
+}
+.sections a[aria-current] { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+.langs a[aria-current] { color: var(--bg); background: var(--fg); border-color: var(--fg); }
+footer { margin-top: 3rem; padding-top: 1.1em; border-top: 1px solid var(--rule);
+         color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+<nav><div class="row sections"><a href="index.html">Privacy</a><a href="support.html" aria-current="page">Support</a></div><div class="row langs"><a href="support.html" aria-current="page">English</a><a href="support-ru.html">Русский</a></div></nav>
+<h1>Support — Öwrenje</h1>
+<p class="date">Last updated: 1 October 2026</p>
+<h2>Getting help</h2>
+<p>Write to <strong>y15927854@gmail.com</strong>. Tell us which course you are taking and which lesson you were on, and include your phone model if something looked wrong on the screen. Messages in Turkmen, Russian or English are all fine.</p>
+<p>Mistakes in the lessons are worth reporting — a wrong translation, a word that is spelled oddly, audio that does not match the text. Name the lesson and we will fix it in the next update.</p>
+<h2>The app asks for nothing, and that has consequences</h2>
+<p>There is no account and no sign-in. Nothing you do is stored anywhere but on your own phone, which is why the app needs no permissions and works with the network switched off. It also means:</p>
+<ul><li><strong>Your progress cannot be moved to another phone</strong>, and there is no backup.</li><li><strong>Uninstalling erases everything</strong> — lessons finished, XP, streak. Reinstalling starts the course from the beginning.</li></ul>
+<h2>Questions people ask</h2>
+<p><strong>Why does it ask my date of birth before anything else?</strong> Because what the app may do depends on how old you are, and it has no other way to know. The date itself is not kept: the app turns it into an age range, stores that, and throws the date away. It is asked once.</p>
+<p><strong>I answered the age question wrong. How do I change it?</strong> Not from inside the app. The only way is to uninstall and install again, which also erases your progress.</p>
+<p><strong>Does it need the internet?</strong> Only to install. Every lesson, exercise and audio clip is inside the app, so the whole course works with no connection and uses no data.</p>
+<p><strong>A lesson is locked.</strong> Lessons open in order — finish the one before it. Nothing is locked behind a payment.</p>
+<p><strong>There is no sound.</strong> Check that the phone is not in silent mode and that the volume is up; the audio is part of the app, so a connection is not the problem. If it is still silent, write to us with your phone model.</p>
+<p><strong>Can I switch to a different course?</strong> Yes, at any time, from the course screen. Each course keeps its own progress.</p>
+<p><strong>The Turkmen pronunciation sounds off.</strong> In the Turkmen course it sometimes is. There is no Turkmen voice available for the kind of speech this app uses, so a Turkish one stands in, and it reads <code>ä ň ž ý</code> wrongly. The written Turkmen is correct. We would rather say so than pretend otherwise.</p>
+<p><strong>What phones does it run on?</strong> Android 8.0 and newer.</p>
+<h2>Privacy</h2>
+<p>What the app stores and what it does not is set out in full in the <a href="index.html">privacy policy</a>.</p>
+<footer>Öwrenje</footer>
+</main>
+</body>
+</html>
